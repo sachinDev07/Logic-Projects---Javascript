@@ -1,0 +1,51 @@
+* {
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1#heading {
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+h1#heading span {
+    background-color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+#container {
+    width: 60%;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input-div {
+    display: inline-block;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+}
