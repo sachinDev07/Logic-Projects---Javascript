@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(163, 146, 146);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #222;
+    transition: .5s ease-in;
+}
+
+
+button {
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+
+}
